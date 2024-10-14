@@ -4,7 +4,7 @@ const convertToCelsius = function(fah) {
 };
 
 const convertToFahrenheit = function(cel) {
-  let fah= cel*(9/5)+32;
+  let fah= (cel*(9/5)+32);
   return parseFloat(fah.toFixed(1));
 };
 
